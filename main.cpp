@@ -6,7 +6,7 @@ using namespace std;
 double calculateAverage(const vector<int> &numbers)
 {
     int sum = 0;
-    for (int i = 0; i <= numbers.size(); i++)
+    for (int i = 0; i < numbers.size(); i++)
     {
         sum += numbers[i];
     }
